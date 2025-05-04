@@ -1,5 +1,6 @@
 # Neutrosophic Image Processing
 
+
 Author: [Dr. VINOTH D](https://www.linkedin.com/in/dr-vinoth-d-1721a3312/), Department of Mathematics, School of Advanced Sciences, [Vellore Institute of Technology, Vellore](https://vit.ac.in/).
 --------
 ## Introduction
@@ -40,13 +41,13 @@ This script executes the main code for applying neutrosophic sets to sample imag
 ## Usage
 
 ### Define the Neutrosophic Set:
-    Use the NeutrosophicSet.py class to create neutrosophic sets. You can define membership, non-membership, and indeterminacy for each pixel or region in the image.
+Use the NeutrosophicSet.py class to create neutrosophic sets. You can define membership, non-membership, and indeterminacy for each pixel or region in the image.
 
 ### Apply to Image:
-    Use the nip.py file to load an image and apply the neutrosophic set. The code will process the image, compute the membership functions, and segment it based on the neutrosophic thresholds.
+ Use the nip.py file to load an image and apply the neutrosophic set. The code will process the image, compute the membership functions, and segment it based on the neutrosophic thresholds.
 
 ### Visualize Results:
-    The Visualization.py file contains functions to generate plots of the membership functions, allowing you to visually inspect how the neutrosophic sets behave in relation to the image content.
+The Visualization.py file contains functions to generate plots of the membership functions, allowing you to visually inspect how the neutrosophic sets behave in relation to the image content.
 
 ## Example
 ```
