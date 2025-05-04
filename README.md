@@ -1,7 +1,7 @@
 # Neutrosophic Image Processing
 
 
-Author: [Dr. VINOTH D](https://www.linkedin.com/in/dr-vinoth-d-1721a3312/), Department of Mathematics, School of Advanced Sciences, [Vellore Institute of Technology, Vellore](https://vit.ac.in/).
+###### Author: [Dr. VINOTH D](https://www.linkedin.com/in/dr-vinoth-d-1721a3312/), Department of Mathematics, School of Advanced Sciences, [Vellore Institute of Technology, Vellore](https://vit.ac.in/).
 --------
 ## Introduction
 Neutrosophic Image Processing (NIP) is an open-source framework developed in Python to perform image processing using Neutrosophic Sets. This repository provides simple and intuitive tools to manipulate symbolic representations of neutrosophic sets over various universes, as well as mappings between them. The framework is designed to apply neutrosophic sets to image processing tasks, specifically for feature extraction and visualization of membership functions.
