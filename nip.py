@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May  3 19:49:32 2025
 
-@author: Vinoth
-"""
 import os
 from NeutrosophicSet import *
 from Visualization import *
@@ -15,7 +10,7 @@ if not os.path.exists(folder_path):
 
 
 h = 3
-sz = 53
+sz = 250
 x = cv.imread("./samples/c_man.png", 0)
 tru = Neutrosophic_set(x, h, sz).truth_mem()
 ind = Neutrosophic_set(x, h, sz).indeter_mem()
