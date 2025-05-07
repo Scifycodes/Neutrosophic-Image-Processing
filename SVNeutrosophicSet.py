@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May  4 10:34:42 2025
-
-@author: Vinoth
-"""
 from NeutrosophicSet import *
 class SV_Neutrosophic_set:
     def __init__(self, img_data, h, sz=None, z_pd=True):

@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May  4 07:00:00 2025
-
-@author: Vinoth
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -37,10 +30,6 @@ class NS_plots(Neutrosophic_set):
         plt.savefig(f_name, dpi=300, bbox_inches='tight')
         pass
     def ns_kde(self, f_name):
-        """
-        Input: float array
-                t_mem: 
-        """
         f_pixels = self.fal.flatten()  
         i_pixels = self.ind.flatten()  
         t_pixels = self.tru.flatten()  
@@ -86,9 +75,3 @@ class NS_plots(Neutrosophic_set):
         plt.savefig(f_name, dpi=300, bbox_inches='tight')
         plt.show()
 
-
-# h = 3
-# sz = 25
-# x = cv.imread("./samples/lena.png", 0)
-# ns = NS_plots(x, h, sz)
-# ns.fal_intensity("cjdid")

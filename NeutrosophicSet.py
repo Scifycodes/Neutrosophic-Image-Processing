@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 27 19:45:37 2025
-
-@author: Vinoth
-"""
-
-
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
@@ -144,7 +136,7 @@ class Image_stat:
 
 if __name__ == "__main__":
     h = 3
-    sz = 53
-    x = cv.imread("./samples/lena.png", 0)
-    kk = Neutrosophic_set(x, h, sz).false_mem()
+    sz = 150
+    img = cv.imread("./samples/lena.png", 0)
+    kk = Neutrosophic_set(img, h, sz).false_mem()
     plt.imshow(kk, cmap="gray")
